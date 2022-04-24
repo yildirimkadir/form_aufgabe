@@ -1,0 +1,35 @@
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+#sozlesme {
+    display: inline;
+
+}
+
+#sektor-deneyimi {
+    margin-top: 5px;
+}
+
+.deneyim {
+    margin-left: 45px;
+}
+
+#mail1, #mail2 {
+    display: inline;
+}
+/* 
+.deneyim1 {
+    display: inline;
+    margin-top: 50px;
+}  */
+
+
+
+.deneyim6, .deneyim11, .deneyim15 {
+    width: auto;
+    display: block;
+    margin-left: 154px;
+    margin-top: 5px;
+}

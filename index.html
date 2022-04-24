@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h2>ABC Tasarim Programi Kurulum ve Satis Sözlesmesi :)</h2>
+    <form action="#" method="get">
+        <div>
+            <fieldset>
+                <legend>Sözlesme Onay</legend>
+                <input type="checkbox" name="sozlesme" id="sozlesme">
+                <label for="sozlesme" id="sozlesme">Asagidaki Bilgilerin dogrulugunu kabul ediyorum ve sözlesmesini onayliyorum.</label>
+                <br>
+                <input type="submit" value="Formu Kaydet">
+                <input type="submit" value="Formu Temizle">
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Kisisel Bilgiler</legend>
+                <label for="kisisel">Form Güvenlik ID</label>
+                <input type="text" name="kisisel" id="kisisel" placeholder="asdfgh">
+                <br><br>
+                <label for="ad">Ad</label>
+                <input type="text" name="isim" id="ad">
+                <br><br>
+                <label for="soyad">Soyad</label>
+                <input type="text" name="soyad" id="soyad">
+                <br><br>
+                <label for="yas">Yas</label>
+                <input type="number" name="yas" id="yas">
+                <br><br>
+                <label for="mail">Mail Adresi</label>
+                <input type="email" name="email" id="mail">
+                <br><br>
+                <label for="foto">Fotograf Ekle</label>
+                <input type="file" name="fotograf" id="foto">
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Diger Bilgiler</legend>
+                <p class="deneyim"><b>Buradaki Alanlar Mesleki Deneyimi Kapsar</b></p>
+                <div>
+                    <label for="giris">Sektöre Giris Tarihi</label>
+                    <input type="date" name="sektore_giris" id="giris" placeholder="gg.aa.yyyy">
+                </div>
+                <br>
+                 <div class="deneyim1">
+                    <label id="sektor-deneyimi" for="1-5">Sektör Deneyimi</label>
+                    <input type="radio" name="deneyim_süresi" id="1-5">
+                    <label for="1-5">1-5 yil</label>
+                </div>
+                <div class="deneyim6">
+                    <input type="radio" name="deneyim_süresi" id="6-10">
+                    <label for="6-10">6-10 yil</label>
+                </div> 
+                <div class="deneyim11">
+                    <input type="radio" name="deneyim_süresi" id="11-15">
+                    <label for="11-15">11-15 yil</label>
+                </div>
+                <div class="deneyim15">
+                    <input type="radio" name="deneyim_süresi" id="15 üzeri">
+                    <label for="15 üzeri">15-üzeri</label>
+                </div>
+                <br>
+                <div>
+                    <label for="diller">Programlama Dilleri</label>
+                    <select name="Programlama_dilleri" id="diller" size="5" visible>
+                        <option value="C#">C#</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Java">Java</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Python">Python</option>
+                        <option value="Go">Go</option>
+                        <option value="C++">C++</option>
+                    </select>
+                </div> 
+            </fieldset>
+        </div>    
+        <div>
+            <fieldset>
+                <legend>Sözlesme Kopyasi</legend>
+                <textarea name="sozlesme" id="sozlesme" cols="40" rows="5" style="overflow-y: scroll;" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quos."></textarea>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Mail Listesi</legend>
+                <label for="maillist" id="mail1">Mail Listesine Katilmak <b>Istiyorum.</b></label>
+                <input type="radio" name="Mail_listesi" id="maillist">
+                <br>
+                <label for="maillist" id="mail2">Mail Listesine Katilmak <u><b>Istemiyorum.</b></u></label>
+                <input type="radio" name="Mail_listesi" id="maillist">
+            </fieldset>
+        </div>
+        
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
